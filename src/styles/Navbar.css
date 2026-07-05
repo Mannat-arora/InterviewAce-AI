@@ -1,0 +1,42 @@
+/* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 18px 50px;
+
+    background-color: #0f172a;
+    color: white;
+}
+
+/* Logo */
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Navigation Links */
+
+.nav-links {
+    display: flex;
+
+    gap: 35px;
+
+    list-style: none;
+}
+
+/* Each Link */
+
+.nav-links li {
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+
+.nav-links li:hover {
+    color: #38bdf8;
+}

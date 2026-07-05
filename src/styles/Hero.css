@@ -1,0 +1,42 @@
+.hero{
+    padding:80px 120px;
+}
+
+.hero h1{
+    font-size:60px;
+    font-weight:bold;
+    line-height:1.1;
+}
+
+.hero p{
+    font-size:22px;
+    color:#555;
+    width:60%;
+    margin-top:20px;
+    line-height:1.6;
+}
+
+.hero button{
+    margin-top:35px;
+    padding:15px 35px;
+
+    font-size:18px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#2563eb;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.hero button:hover{
+
+    background:#1d4ed8;
+
+}
