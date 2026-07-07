@@ -1,8 +1,30 @@
-# React + Vite
+# InterviewAce AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+InterviewAce AI is an AI-powered placement preparation platform designed to help students prepare for coding interviews, HR interviews, resume reviews, and company-specific interview preparation—all in one place.
 
-Currently, two official plugins are available:
+## 🎯 Objectives
+- Practice technical interviews
+- AI-based HR interview simulation
+- Resume analysis
+- DSA progress tracking
+- Personalized learning roadmap
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+
+### Frontend
+- React
+- Tailwind CSS
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB
+
+### AI
+- Gemini API (later)
+
+## 📅 Status
+🚧 Project planning phase
