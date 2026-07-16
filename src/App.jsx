@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Companies from "./pages/Companies";
 import Roadmap from "./pages/Roadmap";
 import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <Route path="/roadmap" element={<Roadmap />} />
 
       <Route path="/login" element={<Login />} />
+      
+      <Route path="/signup" element={<Signup />} />
     </Routes>
   );
 }
