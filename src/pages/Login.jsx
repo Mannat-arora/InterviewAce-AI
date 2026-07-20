@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../styles/Login.css";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
 
@@ -11,6 +12,8 @@ const [emailError, setEmailError] = useState("");
 const [passwordError, setPasswordError] = useState("");
 
 const [showPassword, setShowPassword] = useState(false);
+
+const navigate = useNavigate();
 
 function handleSubmit(e) {
 
@@ -46,7 +49,7 @@ function handleSubmit(e) {
         return;
     }
 
-    alert("Login Successful 🎉");
+   navigate("/dashboard");
 
     console.log({
         email,
