@@ -12,6 +12,7 @@ import ResumeReview from "./pages/ResumeReview";
 import MockInterview from "./pages/MockInterview";
 import Analytics from "./pages/Analytics";
 import Notes from "./pages/Notes";
+import TopicDetails from "./pages/TopicDetails";
 
 function App() {
   return (
@@ -39,6 +40,8 @@ function App() {
       <Route path="/analytics" element={<Analytics />} />
 
       <Route path="/notes" element={<Notes />} />
+
+      <Route path="/coding/:topicName" element={<TopicDetails />} />
 
     </Routes>
   );

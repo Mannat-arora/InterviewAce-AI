@@ -1,0 +1,121 @@
+.topic-card{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:white;
+
+    padding:22px;
+
+    border-radius:16px;
+
+    margin-bottom:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.topic-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.topic-left{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+.topic-icon{
+
+    font-size:40px;
+
+}
+
+.topic-card h3{
+
+    margin:0;
+
+    color:#1e293b;
+
+}
+
+.topic-card p{
+
+    margin-top:8px;
+
+    color:#64748b;
+
+}
+
+.topic-card button{
+
+    border:none;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:12px 22px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.topic-card button:hover{
+
+    background:#1d4ed8;
+
+}
+
+.progress-bar{
+
+    width:250px;
+
+    height:8px;
+
+    background:#e2e8f0;
+
+    border-radius:20px;
+
+    margin-top:12px;
+
+    overflow:hidden;
+
+}
+
+.progress-fill{
+
+    height:100%;
+
+    background:#2563eb;
+
+    transition:.4s;
+
+}
+
+.progress-text{
+
+    display:block;
+
+    margin-top:8px;
+
+    color:#2563eb;
+
+    font-weight:bold;
+
+}
